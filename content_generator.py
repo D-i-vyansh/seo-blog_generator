@@ -22,10 +22,12 @@ def generate_blog_draft(outline):
     - H1: Main Title
         Introduction
       - H2: Section 1
+      
         - H3: Subsection 1.1
         - H3: Subsection 1.2
         ...
         - Conclusion
+    each heading must contain a proper content 
     """
 
     # Generate the blog draft using Mistral
