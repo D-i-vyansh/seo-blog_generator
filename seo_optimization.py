@@ -18,19 +18,17 @@ def optimize_for_seo(content):
 
     {content}
 
-    Modify the blog to:
-    - Include relevant keywords naturally within the content.
-    - Use SEO-friendly headings and structure.
-    - Replace the main title with a **meta title** and add a **meta description**.
-    - Integrate 1-2 relevant quotes to enhance credibility.
-    - Prioritize **helpful, valuable, and engaging content**.
-    - Implement the **E-E-A-T Principle** (Experience, Expertise, Authoritativeness, Trustworthiness).
-    - Ensure smooth readability without mentioning terms like "SEO optimized" or "AI-generated."
+    Add:
+    - Keywords 
+    - SEO-Friendly Headings and keywords
+    - replace the main title with meta title and add meta description just as description
+    - may use1 or 2 related quote in the blog
+    - prioritizes helpful and valuable content
+    - implement the E-E-A-T Principle: Experience, Expertise, Authoritativeness, Trustworthiness while modifying
+    - dont mention things like seo optimized or ai generated just make a complete blog and nothing else
     
-    Format:
-    - Use bold formatting for important terms.
-    - Maintain a clean and structured heading hierarchy.
-    """
+    in the blog itself and dont write the word title or quote just bold them or make heading difference"""
+    
 
     # Generate optimized content using Mistral
     response = ollama.chat(model="mistral", messages=[{"role": "user", "content": prompt}])
