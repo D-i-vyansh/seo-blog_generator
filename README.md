@@ -65,8 +65,8 @@ Ensure Python (>=3.8) is installed on your system.
 
 ### **Step 1: Clone the Repository**  
 ```sh
-git clone https://github.com/your-repo/blog-pipeline.git
-cd blog-pipeline
+git clone https://github.com/D-i-vyansh/seo-blog_generator.git
+cd seo-blog_generator
 ```
 
 ### **Step 2: Install Dependencies**  
